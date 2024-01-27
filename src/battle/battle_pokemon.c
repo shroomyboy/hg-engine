@@ -212,6 +212,7 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_FIGHTING, TYPE_GHOST, 0x00 },
     { 0xFF, 0xFF, 0xFF },
 };
+// Lists of New Function to handle Storing and giving items.
 // Function to update the party size
 void UpdatePartySize(struct Party *party) {
     partySize = 0;
